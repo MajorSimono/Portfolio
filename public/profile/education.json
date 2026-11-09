@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Août 2023 - Avril 2026",
+            "cardTitle": "Baccalauréat en Informatique",
+            "cardSubtitle":"Université de Sherbrooke, Sherbrooke, QC",
+            "cardDetailedText": "Moyenne Cumulative - 3.7/4.3",
+            "icon" : {
+                "src": "images/education/uds.png"
+            }
+        },
+        {
+            "title": "Juin 2022",
+            "cardTitle": "Technique en Informatique, Profil Programmation",
+            "cardSubtitle":"Cegep Édouard-Montpetit, Longueuil, QC",
+            "cardDetailedText": "",
+            "icon" : {
+                "src": "images/education/cegep.png"
+            }
+        }
+    ]
+}

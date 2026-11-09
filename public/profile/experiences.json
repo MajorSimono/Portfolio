@@ -1,0 +1,17 @@
+{
+    "experiences": [
+        {
+            "title": "Stagiaire en développement web Front-end",
+            "subtitle": "OCX Services",
+            "workType": "Stage",
+            "workDescription": [
+                "Programmation Web Front-End (Angular), finaliser et ajouter des fonctions à une application web de registre de déplacement.",
+                "Assurance qualité d’un site web",
+                "Ajout de localisation et traduction français et anglais (Angular)",
+                "Ajout d’affichage d’un trajet Google map (Angular)"
+            ],
+            "dateText": "03/2022 – 05/2023"
+        }
+       
+    ]
+}

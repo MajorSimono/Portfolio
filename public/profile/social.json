@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "www.linkedin.com/in/simon-major-487702170"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/MajorSimono"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:sim_major@outlook.com"
+        }
+    ]
+}

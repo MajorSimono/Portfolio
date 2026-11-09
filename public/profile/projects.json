@@ -1,0 +1,22 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/logo_arcaderaiders.png",
+            "title": "ARCADE Raiders",
+            "bodyText": "- Jeux vidéo en Unity pour le Concours universitaire d'Ubisoft\n -  Participation à la conception et au développement du jeu « Arcade Raiders »\n - Nomination au Prix spécial du jury \n Expérience de travail en équipe multidisciplinaire (programmation, design, art)",
+            "links": [
+                {
+                    "text": "Itch.io",
+                    "href": "https://clehadoll.itch.io/arcade-raiders"
+                }
+                
+            ],
+            "tags" : [
+                "Unity",
+                "Développement de jeux vidéo",
+                "C#"
+            ]
+        }
+        
+    ]
+}

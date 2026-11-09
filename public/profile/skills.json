@@ -1,0 +1,88 @@
+{
+    "intro": "J'aime apprendre de nouvelles choses et expérimenter avec les nouvelles technologies.\nVoici quelques-uns des principaux langages de programmation, technologies, outils et plateformes avec lesquels j'ai eu l'occasion de travailler :",
+    "skills": [{
+     
+            "title": "Langages de programmation & Bases de données",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/cpp.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/csharp.png",
+                    "title": "C#"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/angular.png",
+                    "title": "Angular"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "SQL"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                }
+
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
+                },
+                {
+                    "icon": "images/skills/flutter.png",
+                    "title": "Flutter"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                }
+            ]
+        },
+        {
+            "title" : "Outils & Plateformes",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/jira.png",
+                    "title": "jira"
+                },
+                {
+                    "icon": "images/skills/unreal.png",
+                    "title": "Unreal Engine"
+                },
+                {
+                    "icon": "images/skills/unity.png",
+                    "title": "Unity"
+                }
+            ]
+    }
+]}
