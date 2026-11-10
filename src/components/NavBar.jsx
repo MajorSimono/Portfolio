@@ -105,9 +105,7 @@ const NavBar = () => {
                 </InternalNavLink>
               )))}
           </Nav>
-          <ThemeToggler
-            onClick={() => setExpanded(false)}
-          />
+        
         </Navbar.Collapse>
       </Container>
     </Navbar>
