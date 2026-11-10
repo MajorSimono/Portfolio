@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
-import endpoints from '../constants/endpoints';
+import endpoints, { publicAsset } from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/about.css';
 
@@ -32,7 +32,7 @@ function About(props) {
               </div>
               {data?.imageSource && (
                 <div className="tile about-image-tile span-2 rspan-2">
-                  <img src={data.imageSource} alt="profile" />
+                  <img src={publicAsset(data.imageSource)} alt="profile" />
                 </div>
               )}
             </div>

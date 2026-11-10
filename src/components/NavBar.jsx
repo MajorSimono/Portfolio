@@ -1,8 +1,8 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
+import endpoints, { publicAsset } from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
 
 const styles = {
@@ -59,9 +59,9 @@ const NavBar = () => {
     >
       <Container>
         {data?.logo && (
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img
-              src={data?.logo?.source}
+              src={publicAsset(data.logo.source)}
               className="d-inline-block align-top"
               alt="main logo"
               style={

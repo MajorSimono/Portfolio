@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
-import endpoints from '../constants/endpoints';
+import endpoints, { publicAsset } from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/skills.css';
 
@@ -41,7 +41,7 @@ function Skills(props) {
                   <div className="skill-grid">
                     {category.items.map((item) => (
                       <div key={item.title} className="skill-item">
-                        <img src={item.icon} alt={item.title} />
+                        <img src={publicAsset(item.icon)} alt={item.title} />
                         <span>{item.title}</span>
                       </div>
                     ))}

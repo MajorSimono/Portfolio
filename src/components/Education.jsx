@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import PropTypes from 'prop-types';
-import endpoints from '../constants/endpoints';
+import endpoints, { publicAsset } from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/timeline.css';
@@ -30,7 +30,7 @@ function Education(props) {
                 <div className="tl-item" key={item.cardTitle + item.title}>
                   <div className="tl-node--icon">
                     {item.icon && (
-                      <img src={item.icon.src} alt={item.icon.alt} />
+                      <img src={publicAsset(item.icon.src)} alt={item.icon.alt} />
                     )}
                   </div>
                   <div className="tl-card">
